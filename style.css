@@ -8,14 +8,14 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   background-color: #ecd1ff;
+   background-color: #accdff;
    height: 100vh;
    width: 100vw;
    text-align: center;
 }
 
 .caixa-maior{
-    background-color: #a9c0ff;
+    background-color: #ffffff8a;
     width: 95%;
     max-width: 45rem;
     opacity: 0.8;
@@ -25,9 +25,9 @@
 
 .titulo{
     text-transform: uppercase;
-    background-color: #ce84ff;
+    background-color: #ffffff;
     opacity:0.8;
-    color:beige;
+    color:rgba(0, 0, 0, 0.452);
     margin-bottom: 1.25rem;
     text-align: center;
     border-radius: 1.563rem;
@@ -39,7 +39,7 @@
     padding: 0.625rem;
     border-radius: 1.563rem;
     font-size: 1.5rem;
-    background-color: rgba(255, 248, 188, 0.8);
+    background-color: #c6ddff;
     width: calc(100% - 100px);
 }
 
@@ -50,7 +50,7 @@
 }
 
 .pesquisar:hover{
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
 }
 
 .pesquisar.active{
@@ -68,4 +68,5 @@
     width: 5rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
+
 }
